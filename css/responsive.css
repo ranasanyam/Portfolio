@@ -1,0 +1,110 @@
+
+
+@media only screen and (max-width: 320px){
+	.header_area .main-menu .navbar,
+	.header_area .main-menu .navbar .navbar-brand,
+	.site-main .subscribe-us-area .subscribe .subscribe-title,
+	.site-main .subscribe-us-area .subscribe .subscibe-title p,h4
+	.site-main .services-area,
+	.site-main .subscribe-us-area .subscribe
+	{
+		padding: 2%;
+		margin: 0%;
+	}
+	.header_area .main-menu .navbar .navbar-brand{
+		font-size: 25px;
+	}
+	.header_area .main-menu .nav-item{
+		text-align: center;
+	}
+	.header_area .main-menu .nav-item .nav-link{
+		border-bottom: 1px solid darkgrey;
+	}
+
+	.site-main .site-banner .site-title h1{
+		font-size: 41px;
+	}
+	.site-main .subscribe-us-area .subscribe form .input-textbox input {
+		width: 15rem !important;
+	}
+	.site-main > .services-area .services {
+		width: 13rem;
+	}
+	.site-main .project-area .project-title h1{
+		padding-bottom: 20px;
+	}
+	.site-main .project-area .btn-group{
+		display: flex;
+		flex: row;
+		flex-wrap: wrap;
+	}
+	.site-main .project-area .btn-group button {
+
+	font: normal 500 16px/50px var(--roboto);
+	text-transform: uppercase;
+    }
+	.site-main .project-area .btn-group button + button {
+	padding-left: 1rem;
+    }
+    .site-main .project-area .grid .our-project .img a img{
+        width: 280px;
+    }
+    .site-main > .services-area .services{
+    	margin: 2rem 0;
+    }
+ 
+}
+
+@media only screen and (max-width: 792px){
+	.site-main .about-area .about-title h2 > span {
+		font-size: 31px;
+		letter-spacing: 10px;
+	}
+	.site-main .brand-area .experience-area .years-area {
+		padding-left: 1%;
+		width: 49%;
+	}
+	.site-main .brand-area .experience-area .bg-panel{
+		margin-left: 30%;
+		width: 80%;
+	}
+	.site-main .brand-area .experience-area .call-area {
+		padding-left: 3%;
+	}
+	.site-main .project-area .grid .our-project .img a img{
+        width: 320px;
+    }
+	.site-main .project-area .grid .our-project{
+		padding: 0.1rem;
+	}
+	.site-main .project-area .button-group button {
+		font: normal 500 18px/40px var(--roboto);
+	}
+
+	.site-main .subscribe-us-area .subscribe form .input-textbox input {
+		width: 18rem;
+		margin: 1rem;
+	}
+
+	.site-main .subscribe-us-area .subscribe form .btn-submit button{
+		padding: .7rem 1.2rem;
+		margin-right: 52px;
+	}
+
+
+}
+@media only screen and (max-width: 1910px){
+	.header-area .main-menu .navbar {
+		padding: 1rem;
+
+	}
+	.container {
+		max-width: 90%;
+	}
+	.site-main .brand-area,
+	.site-main .services-area .services-title,
+	.site-main .about-area{
+		padding: 3% 4%;
+	}
+}
+
